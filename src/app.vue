@@ -1,8 +1,8 @@
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
 
 <template>
-  <div>
+  <div class="text-blue-600">
     test
   </div>
 
