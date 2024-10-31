@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import Tetris from './components/tetris.vue';
-import tetris from './components/tetris.vue'
+import Tetris from './components/tetris.vue'
 </script>
 
 
