@@ -77,7 +77,6 @@ export const shapes: ShapeObject = {
       ],
     ],
   },
-
   [Block.T]: {
     shapes: [
       [
@@ -102,7 +101,6 @@ export const shapes: ShapeObject = {
       ],
     ],
   },
-
   [Block.Z]: {
     shapes: [
       [
@@ -117,7 +115,6 @@ export const shapes: ShapeObject = {
       ],
     ],
   },
-
   [Block.S]: {
     shapes: [
       [
@@ -132,4 +129,4 @@ export const shapes: ShapeObject = {
       ],
     ],
   },
-}
+} as const
