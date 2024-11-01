@@ -11,7 +11,7 @@ board.value[180] = Block.J
 </script>
 
 <template>
-  <div class="grid grid-cols-10 gap-px bg-black/70 shadow-glow">
-    <Cell v-for="cell in board" :cell />
+  <div class="grid grid-cols-10 gap-px bg-black/70 p-px shadow-glow">
+    <Cell v-for="cell in board" :cell="cell" />
   </div>
 </template>
